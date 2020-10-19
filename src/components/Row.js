@@ -19,7 +19,9 @@ const Row =({title,fetchUrl,isLarge})=>{
         let classN ="";
         if(isLarge)
             classN =" rowLarge";
-        return <img key = {movie.id} className = {"row_poster"+classN} src ={path} alt ={movie.name} / >
+        if(movie.backdrop_path){
+            return <img key = {movie.id} className = {"row_poster"+classN} src ={path} alt ={movie.name} / >
+        }
     })
 
     return (
