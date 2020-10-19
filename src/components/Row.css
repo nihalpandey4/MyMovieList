@@ -25,9 +25,9 @@
 }
 
 .rowLarge:hover{
-    transform:scale(1.10);
+    transform:scale(1.12);
 }
 
 .row_poster:hover{
-    transform: scale(1.08);
+    transform: scale(1.10);
 }
