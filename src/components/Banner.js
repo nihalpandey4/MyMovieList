@@ -13,8 +13,8 @@ export default ()=> {
             setMovie(response.data.results[Math.floor(Math.random()*response.data.results.length-1)]);
         }
         temp();
-    },[])
-    console.log(movie)
+    },[]);
+    
     return (
         <header 
             className="banner"
