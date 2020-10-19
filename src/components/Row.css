@@ -1,12 +1,14 @@
 .row{
     margin-left:20px;
     color:white;
+    z-index:0;
 }
 .row_posters{
     display:flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding:20px;
+    z-index:0;
 }
 
 .row_posters::-webkit-scrollbar{
@@ -27,8 +29,10 @@
 
 .rowLarge:hover{
     transform:scale(1.12);
+    z-index: 0;
 }
 
 .row_poster:hover{
     transform: scale(1.10);
+    z-index: 0;
 }

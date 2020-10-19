@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from "./Navbar";
 import Row from "./Row"
 import Banner from "./Banner";
 import requests from "../apis/requests"; 
@@ -6,6 +7,7 @@ import "./App.css"
 const App =()=>{
   return (
     <div className = "app">
+      <Navbar />
       <Banner />
       <Row title = "Netflix Originals" fetchUrl = {requests.fetchNetflixOriginals} isLarge />
       <Row title = "Trending Now" fetchUrl = {requests.fetchTrendingNow} />
