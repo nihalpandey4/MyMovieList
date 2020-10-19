@@ -1,6 +1,7 @@
 # MyMovieList-NMDB
 
-## link to try out - https://mymovielist-nmdb.netlify.app/
+## Netlify link to try out - https://mymovielist-nmdb.netlify.app/
+## Firebase link - https://nihal-movie-catalog.web.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
