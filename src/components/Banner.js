@@ -34,6 +34,7 @@ export default ()=> {
                     {movie.overview} 
                 </div>
             </div>
+            <div className="banner_fadeBottom" />
         </header>
     )
 }

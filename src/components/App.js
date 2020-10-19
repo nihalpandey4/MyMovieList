@@ -5,7 +5,7 @@ import requests from "../apis/requests";
 import "./App.css"
 const App =()=>{
   return (
-    <div className = "App">
+    <div className = "app">
       <Banner />
       <Row title = "Netflix Originals" fetchUrl = {requests.fetchNetflixOriginals} isLarge />
       <Row title = "Trending Now" fetchUrl = {requests.fetchTrendingNow} />
