@@ -27,8 +27,8 @@ export default ()=> {
             <div className="banner_contents">
                 <h1>{movie.name}</h1>
                 <div className ="banner_buttons">
-                    <div className ="banner_button">Play</div>
-                    <div className ="banner_button">My List</div>
+                    <button className ="banner_button">Play</button>
+                    <button className ="banner_button">My List</button>
                 </div>
                 <div className="banner_description">
                     {movie.overview} 
